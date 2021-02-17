@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  border-width: 0;
+  font-size: 16px;
+  outline: none;
+}
+body {
+  background-color: gray;
+}
+h1 {
+  font-size: 4em;
+  text-align: center;
+  padding: 0.6em;
+}
+main {
+  display: flex;
+}
+main > * {
+  width: 100%;
+}
+main > section:first-child{
+  border-right: double 0.2em black;
+}
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+section {
+  padding: 2em;
+}
+input {
+  width: 100%;
+  padding: 0.6em;
+  margin-bottom: 1em;
+  border-radius: 0.4em;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin: 1em;
+}
